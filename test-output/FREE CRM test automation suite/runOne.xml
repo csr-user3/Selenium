@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="CMANIKON-T490" name="com.crm.qa.testcases.ContactsPageTest" tests="8" failures="2" timestamp="28 Jan 2023 15:26:53 GMT" time="227.688" errors="0">
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.crm.qa.testcases.HomePageTest">
+    <failure type="org.openqa.selenium.TimeoutException" message="timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &amp;apos;4.8.0&amp;apos;, revision: &amp;apos;267030adea&amp;apos;
+System info: os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_311&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7233d920aec31e93b893b47e1a194cd6, clickElement {id=c2e6c83e-80af-47af-b1e5-fd1128904cdb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\cmanikon\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62820/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7233d920aec31e93b893b47e1a194cd6)] -&amp;gt; xpath: //input[@value=&amp;apos;Login&amp;apos;]]
+Session ID: 7233d920aec31e93b893b47e1a194cd6">
+      <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7233d920aec31e93b893b47e1a194cd6, clickElement {id=c2e6c83e-80af-47af-b1e5-fd1128904cdb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\cmanikon\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62820}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62820/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (7233d920aec31e93b893b47e1a194cd6)] -> xpath: //input[@value='Login']]
+Session ID: 7233d920aec31e93b893b47e1a194cd6
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.crm.qa.pages.LoginPage.login(LoginPage.java:46)
+	at com.crm.qa.testcases.HomePageTest.setUp(HomePageTest.java:30)
+... Removed 35 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.crm.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.crm.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.crm.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@BeforeMethod setUp" time="0.0" classname="com.crm.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="@AfterMethod tearDown" time="0.0" classname="com.crm.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyContactsLinkTest" time="0.002" classname="com.crm.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyContactsPageLabelTest" time="0.093" classname="com.crm.qa.testcases.ContactsPageTest"/>
+  <testcase name="verifyHomePageTitleTest" time="0.001" classname="com.crm.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="loginPageTitleTest" time="0.015" classname="com.crm.qa.testcases.LoginPageTest">
+    <failure type="java.lang.AssertionError" message="not matched expected:&amp;lt;Free CRM  - CRM software for customer relationship management, sales, and support.&amp;gt; but was:&amp;lt;Free CRM - CRM software for customer relationship management, sales, and support.&amp;gt;">
+      <![CDATA[java.lang.AssertionError: not matched expected:<Free CRM  - CRM software for customer relationship management, sales, and support.> but was:<Free CRM - CRM software for customer relationship management, sales, and support.>
+	at com.crm.qa.testcases.LoginPageTest.loginPageTitleTest(LoginPageTest.java:30)
+... Removed 29 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase name="selectContactsTextTest" time="0.161" classname="com.crm.qa.testcases.ContactsPageTest"/>
+  <testcase name="verifyUsernameTest" time="0.001" classname="com.crm.qa.testcases.HomePageTest">
+    <skipped/>
+  </testcase>
+  <testcase name="crmLogoImageTest" time="0.913" classname="com.crm.qa.testcases.LoginPageTest"/>
+  <testcase name="LoginTest" time="20.819" classname="com.crm.qa.testcases.LoginPageTest">
+    <failure type="org.openqa.selenium.TimeoutException" message="timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=109.0.5414.120)
+Build info: version: &amp;apos;4.8.0&amp;apos;, revision: &amp;apos;267030adea&amp;apos;
+System info: os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_311&amp;apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6048e2e82fe1e269b3b93d3ca88c687, clickElement {id=4604ccf9-38ce-414e-87ff-e295967bce7e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\cmanikon\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63375}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63375/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a6048e2e82fe1e269b3b93d3ca88c687)] -&amp;gt; xpath: //input[@value=&amp;apos;Login&amp;apos;]]
+Session ID: a6048e2e82fe1e269b3b93d3ca88c687">
+      <![CDATA[org.openqa.selenium.TimeoutException: timeout: Timed out receiving message from renderer: 20.000
+  (Session info: chrome=109.0.5414.120)
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_311'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a6048e2e82fe1e269b3b93d3ca88c687, clickElement {id=4604ccf9-38ce-414e-87ff-e295967bce7e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 109.0.5414.120, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\cmanikon\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:63375}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63375/devtoo..., se:cdpVersion: 109.0.5414.120, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (a6048e2e82fe1e269b3b93d3ca88c687)] -> xpath: //input[@value='Login']]
+Session ID: a6048e2e82fe1e269b3b93d3ca88c687
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
+	at com.sun.proxy.$Proxy14.click(Unknown Source)
+	at com.crm.qa.pages.LoginPage.login(LoginPage.java:46)
+	at com.crm.qa.testcases.LoginPageTest.LoginTest(LoginPageTest.java:43)
+... Removed 33 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

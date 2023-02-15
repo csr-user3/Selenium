@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="CMANIKON-T490" name="com.crm.qa.testcases.ContactsPageTest" tests="1" failures="0" timestamp="29 Jan 2023 17:05:03 GMT" time="0.159" errors="0">
+  <testcase name="validateCreateNewContact" time="0.148" classname="com.crm.qa.testcases.ContactsPageTest">
+    <skipped/>
+  </testcase>
+</testsuite>
